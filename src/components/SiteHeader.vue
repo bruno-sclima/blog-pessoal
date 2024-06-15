@@ -1,5 +1,12 @@
 <template>
   <header>
+    <nav>
+      <ul>
+        <li><router-link to="/">Blog</router-link></li>
+        <li><router-link to="/about">Sobre</router-link></li>
+        <li><router-link to="/description">Descrição</router-link></li>
+      </ul>
+    </nav>
     <div class="header-content">
       <div class="image-content">
         <img src="@/assets/profile.png" alt="Profile Picture" class="profile-pic" />
@@ -7,7 +14,7 @@
       <div class="text-content">
         <h1>Bruno Silveira Cerqueira Lima</h1>
         <p>
-          Engenheiro de software, atuando como desenvolvedor backend com uso do ecossistema Spring Boot Java, e estudante de Arquitetura de Software Distribuído.
+          Engenheiro de software especializado em desenvolvimento backend no ecossistema Java Spring Boot, e estudante de arquitetura de sistemas distribuídos 
         </p>
       </div>
     </div>
@@ -24,7 +31,21 @@ export default {
 header {
   background-color: #3b5998;
   color: white;
-  padding: 40px 20px;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  margin: 0 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
 }
 .header-content {
   display: flex;
@@ -45,7 +66,6 @@ header {
 .text-content {
   max-width: 600px;
 }
-
 @media (max-width: 768px) {
   .header-content {
     flex-direction: column;

@@ -18,7 +18,10 @@ export default {
 
 <style scoped>
 .blog-list {
-  text-align: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 a {
   display: block;

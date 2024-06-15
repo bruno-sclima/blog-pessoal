@@ -8,6 +8,8 @@
 <style scoped>
 .blog-item {
   margin-bottom: 20px;
+  text-align: center;
+  max-width: 600px;
 }
 h3 {
   font-size: 18px;
