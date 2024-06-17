@@ -14,7 +14,7 @@
       <div class="text-content">
         <h1>Bruno Silveira Cerqueira Lima</h1>
         <p>
-          Engenheiro de software especializado em desenvolvimento backend no ecossistema Java Spring Boot, e estudante de arquitetura de sistemas distribuídos 
+          Engenheiro de software especializado em desenvolvimento backend no ecossistema Java Spring Boot, e estudante de arquitetura de software distribuídos 
         </p>
       </div>
     </div>
